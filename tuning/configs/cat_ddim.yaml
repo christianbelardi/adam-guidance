@@ -1,0 +1,16 @@
+data_type: 'image'
+dataset: 'cat'
+image_size: 256
+target: 'no'
+train_steps: 1000
+inference_steps: 100
+eta: 0.0
+clip_x0: true
+logging_dir: 'results-ddim/hyperparameter-search/'
+per_sample_batch_size: 16
+num_samples: 32
+logging_resolution: 512
+eval_batch_size: 16
+wandb: false
+recur_steps: 1
+eps_bsz: 1
